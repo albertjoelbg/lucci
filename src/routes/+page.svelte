@@ -4,7 +4,7 @@
     import Marquee from "../components/ui/Marquee.svelte";
 </script>
 <svelte:head>
-    <title>Lucci.app ¡La mejor tienda online de ropa!</title>
+    <title>Lucci ¡La mejor tienda online de ropa!</title>
 </svelte:head>
 
 <Carousel/>

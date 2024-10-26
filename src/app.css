@@ -4,6 +4,9 @@
 
 body, h1 {
     font-family: 'Poppins', 'Arial', sans-serif; /* Arial como fuente de respaldo */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
 }
 
 h2, h3, h4, h5 {
