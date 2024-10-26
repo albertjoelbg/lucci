@@ -10,8 +10,8 @@ h2, h3, h4, h5 {
     font-family: 'Montserrat', 'Georgia', serif; /* Georgia como fuente de respaldo */
 }
 
-p {
-    font-family: 'Open Sans', 'Helvetica', sans-serif; /* Helvetica como fuente de respaldo */
+p{
+    font-family: 'Open Sans', 'sans-serif';
 }
 
 /* poppins-regular - latin */
@@ -392,4 +392,77 @@ p {
     font-style: italic;
     font-weight: 900;
     src: url('./fonts/rubik-v28-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* big-shoulders-text-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 100;
+    src: url('./fonts/big-shoulders-text-v24-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./fonts/big-shoulders-text-v24-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/big-shoulders-text-v24-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/big-shoulders-text-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/big-shoulders-text-v24-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/big-shoulders-text-v24-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/big-shoulders-text-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/big-shoulders-text-v24-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* big-shoulders-text-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/big-shoulders-text-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }

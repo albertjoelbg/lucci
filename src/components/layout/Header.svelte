@@ -1,8 +1,18 @@
+<script>
+    import Badge from '../ui/Cart.svelte';
+
+    let isDropdownOpen = $state(false);
+
+    function toggleDropdown() {
+        isDropdownOpen = !isDropdownOpen;
+    }
+</script>
+
 <div class="navbar bg-base-100 relative z-50">
     <div class="navbar-start">
         <div class="dropdown relative">
             <!-- Botón para desplegar menú -->
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden" on:click={toggleDropdown}>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                      stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -11,10 +21,10 @@
             </div>
             <!-- Contenido del menú -->
             <ul tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow">
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow {!isDropdownOpen?'hidden':''}">
                 <li>
                     <details>
-                        <summary >Mujer</summary>
+                        <summary>Mujer</summary>
                         <ul class="p-1">
                             <li><a>Moda mujer</a></li>
                             <li><a>Polos</a></li>
@@ -121,6 +131,6 @@
         </ul>
     </div>
     <div class="navbar-end">
-        <a class="btn btn-primary">Contáctanos</a>
+        <Badge/>
     </div>
 </div>

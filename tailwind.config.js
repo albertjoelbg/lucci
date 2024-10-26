@@ -9,7 +9,14 @@ export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
 
     theme: {
-        extend: {}
+        extend: {
+            fontFamily: {
+                'poppins': ['Poppins', 'sans-serif'],
+                'montserrat': ['Montserrat', 'sans-serif'],
+                'open-sans': ['Open Sans', 'sans-serif'],
+                'big-shoulders-text': ['Open Sans', 'sans-serif'],
+            },
+        }
     },
 
     plugins: [typography, forms, containerQueries, aspectRatio, daisyui],
