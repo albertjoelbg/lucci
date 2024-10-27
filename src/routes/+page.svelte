@@ -2,6 +2,7 @@
     import Carousel from "../components/ui/Carousel.svelte";
     import WhatsappLogo from "../components/ui/WhatsappLogo.svelte";
     import Marquee from "../components/ui/Marquee.svelte";
+    import Bento from "../components/ui/Bento.svelte";
 </script>
 <svelte:head>
     <title>Lucci ¡La mejor tienda online de ropa!</title>
@@ -12,6 +13,8 @@
 <section>
     <h2 class="font-poppins text-2xl text-center m-4 font-medium">Comenzaron las mejores ofertas</h2>
 </section>
+
+<Bento/>
 
 <Marquee/>
 <div class="fixed right-4 bottom-4">
