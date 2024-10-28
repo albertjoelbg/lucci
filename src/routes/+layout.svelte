@@ -1,14 +1,17 @@
 <script>
     import '../app.css';
-    import Header from '../components/layout/Header.svelte';
+    import NavBar from '../components/layout/NavBar.svelte';
     import Footer from '../components/layout/Footer.svelte';
 
     let {children} = $props();
 </script>
-<Header/>
+
+<header>
+    <NavBar/>
+</header>
+
 <main class="flex-grow">
     {@render children()}
 </main>
 
 <Footer/>
-

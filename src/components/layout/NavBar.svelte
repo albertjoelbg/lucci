@@ -1,5 +1,5 @@
 <script>
-    import Badge from '../ui/Cart.svelte';
+    import NavigationButtons from './NavigationButtons.svelte';
 
     let isDropdownOpen = $state(false);
 
@@ -131,6 +131,6 @@
         </ul>
     </div>
     <div class="navbar-end">
-        <Badge/>
+        <NavigationButtons/>
     </div>
 </div>
