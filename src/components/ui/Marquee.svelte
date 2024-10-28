@@ -21,7 +21,7 @@
     });
 </script>
 
-<div class="marquee">
+<section class="marquee">
     <div class="wrapper cyber_image__dsk">
         <div>SOLO HOY LUCCI OFFERS | 50% DSCTO. EN LA WEB</div>
         <div>SOLO HOY LUCCI OFFERS | 50% DSCTO. EN LA WEB</div>
@@ -36,7 +36,7 @@
         <div>SOLO HOY LUCCI OFFERS | 50% DSCTO. EN LA WEB</div>
         <div>SOLO HOY LUCCI OFFERS | 50% DSCTO. EN LA WEB</div>
     </div>
-</div>
+</section>
 
 <style>
     .marquee {

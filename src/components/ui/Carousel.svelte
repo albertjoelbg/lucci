@@ -1,4 +1,4 @@
-<div class="z-10 carousel w-full">
+<section class="z-10 carousel w-full">
     <div id="slide1" class="carousel-item relative w-full">
         <video autoplay muted loop class="max-w-full object-cover rounded-lg shadow-lg">
             <source src="/media/content/carousel/slide-1-desktop.webm" type="video/webm">
@@ -24,4 +24,4 @@
         </div>
     </div>
 
-</div>
+</section>
