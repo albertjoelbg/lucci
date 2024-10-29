@@ -9,7 +9,7 @@
 
 <section
         class="hero min-h-screen"
-        style="background-image: url(/media/content/hero/contacto-hero.png);">
+        style="background-image: url(/media/content/hero/contacto-hero.webp);">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-neutral-content text-center">
         <div class="max-w-md">
