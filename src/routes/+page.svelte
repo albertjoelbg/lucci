@@ -1,6 +1,6 @@
 <script>
     import Carousel from "../components/ui/Carousel.svelte";
-    import WhatsappLogo from "../components/ui/WhatsappLogo.svelte";
+    import Portada1 from "../components/ui/Portada1.svelte";
     import Marquee from "../components/ui/Marquee.svelte";
     import Bento from "../components/ui/Bento.svelte";
     import Heading from "../components/ui/Heading.svelte";
@@ -17,3 +17,10 @@
 </section>
 
 <Marquee/>
+
+<section>
+    <Heading texto="Para ella"/>
+    <Portada1 mainImage="/media/content/portadas/portada-conjunto-mujer.webp"
+              rightTopImage="/media/content/portadas/portada-braziers.webp"
+              rightBottomImage="/media/content/portadas/portada-braziers-cachetero.webp"/>
+</section>
